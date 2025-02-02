@@ -31,15 +31,15 @@ To install **bzzix_restrictive_categories**, follow these simple steps:
 == Screenshots ==
 
 1. **Settings Page:** Configure category restrictions for users.
-   Screenshot 1: assets/category_selection_2.png
-   Screenshot 2: assets/category_selection.png
+   Screenshot 1: assets/screenshots/category_selection_2.png
+   Screenshot 2: assets/screenshots/category_selection.png
 
 2. **User Profile Page:** Set allowed categories per user.
-   Screenshot 1: assets/users_ids.png
-   Screenshot 2: assets/users_ids_set.png
+   Screenshot 1: assets/screenshots/users_ids.png
+   Screenshot 2: assets/screenshots/users_ids_set.png
 
 3. **Profile Editor:** Restricted users can only select allowed categories.
-   Screenshot: assets/user_profile.png
+   Screenshot: assets/screenshots/user_profile.png
 
 == Frequently Asked Questions ==
 

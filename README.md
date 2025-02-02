@@ -40,15 +40,15 @@ You can install the plugin by following these steps:
 ## Screenshots
 
 1. **Settings Page:** Configure category restrictions.
-   ![Settings Page](assets/category_selection_2.png)
-   ![Settings Page](assets/category_selection.png)
+   ![Settings Page](assets/screenshots/category_selection_2.png)
+   ![Settings Page](assets/screenshots/category_selection.png)
 
 2. **User Profile Page:** Set allowed categories per user.
-   ![User Profile Page](assets/users_ids.png)
-   ![User Profile Page](assets/users_ids_set.png)
+   ![User Profile Page](assets/screenshots/users_ids.png)
+   ![User Profile Page](assets/screenshots/users_ids_set.png)
 
 3. **Post Editor:** Restricted users can only select allowed categories.
-   ![Post Editor](assets/user_profile.png)
+   ![Post Editor](assets/screenshots/user_profile.png)
 
 ## Frequently Asked Questions
 
