@@ -245,7 +245,7 @@ class bzzix_restrictive_categories {
 	 * @since 1.0.0
 	 */
 	public function __clone() {
-		_doing_it_wrong( __FUNCTION__, esc_html( __( 'Cloning of bzzix_restrictive_categories is forbidden' ) ), esc_attr( $this->_version ) );
+		_doing_it_wrong( __FUNCTION__, esc_html( __( 'Cloning of bzzix_restrictive_categories is forbidden', 'bzzix-restrictive-categories' ) ), esc_attr( $this->_version ) );
 
 	} // End __clone ()
 
@@ -255,7 +255,7 @@ class bzzix_restrictive_categories {
 	 * @since 1.0.0
 	 */
 	public function __wakeup() {
-		_doing_it_wrong( __FUNCTION__, esc_html( __( 'Unserializing instances of bzzix_restrictive_categories is forbidden' ) ), esc_attr( $this->_version ) );
+		_doing_it_wrong( __FUNCTION__, esc_html( __( 'Unserializing instances of bzzix_restrictive_categories is forbidden', 'bzzix-restrictive-categories' ) ), esc_attr( $this->_version ) );
 	} // End __wakeup ()
 
 	/**

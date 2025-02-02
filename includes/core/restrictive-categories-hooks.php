@@ -50,10 +50,10 @@ function bzrc_add_user_category_field($user) {
 
     $categories = get_categories(array('hide_empty' => false));
     ?>
-    <h3><?php _e('Category Restrictions', 'bzzix-restrictive-categories'); ?></h3>
+    <h3><?php esc_attr_e('Category Restrictions', 'bzzix-restrictive-categories'); ?></h3>
     <table class="form-table" style="border: 2px solid #007cba; padding: 15px; border-radius: 8px; background: #f9f9f9;">
         <tr>
-            <th><?php _e('Allowed Categories', 'bzzix-restrictive-categories'); ?></th>
+            <th><?php esc_attr_e('Allowed Categories', 'bzzix-restrictive-categories'); ?></th>
             <td>
                 <?php foreach ($categories as $category) : ?>
                     <label style="display:block; margin-bottom: 5px;">
@@ -62,7 +62,7 @@ function bzrc_add_user_category_field($user) {
                         <?php echo esc_html($category->name); ?>
                     </label>
                 <?php endforeach; ?>
-                <p class="description"><?php _e('Select the categories this user is allowed to post in.', 'bzzix-restrictive-categories'); ?></p>
+                <p class="description"><?php esc_attr_e('Select the categories this user is allowed to post in.', 'bzzix-restrictive-categories'); ?></p>
             </td>
         </tr>
     </table>
@@ -118,7 +118,7 @@ function bzrc_prevent_publish_in_restricted_categories($post_id) {
                 ));
                 add_action('save_post', 'bzrc_prevent_publish_in_restricted_categories');
 
-                wp_die(__('You are not allowed to publish in these categories. Please choose only from the allowed categories.', 'bzzix-restrictive-categories'));
+                wp_die(esc_attr_e('You are not allowed to publish in these categories. Please choose only from the allowed categories.', 'bzzix-restrictive-categories'));
             }
         }
     }
