@@ -7,8 +7,10 @@
  * Author: Mahmoud Hassan
  * Author URI: https://wa.me/00201062332549
  * Requires at least: 4.0
- * Tested up to: 6.0
+ * Tested up to: 6.7
  * Requires PHP: 8.0
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
  * Text Domain: bzzix-restrictive-categories
  * Domain Path: /lang/
