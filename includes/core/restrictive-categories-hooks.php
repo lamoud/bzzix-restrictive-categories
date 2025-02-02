@@ -78,8 +78,8 @@ function bzrc_save_user_category_field($user_id) {
     }
 
     if (isset($_POST['bzrc_allowed_categories']) && is_array($_POST['bzrc_allowed_categories'])) {
-        $allowed_categories = array_map('intval', $_POST['bzrc_allowed_categories']);
-        update_user_meta($user_id, 'bzrc_allowed_categories', $allowed_categories);
+        $user_allowed_categories = array_map('intval', $_POST['bzrc_allowed_categories']);
+        update_user_meta($user_id, 'bzrc_allowed_categories', $user_allowed_categories);
     } else {
         delete_user_meta($user_id, 'bzrc_allowed_categories');
     }
@@ -126,6 +126,13 @@ function bzrc_prevent_publish_in_restricted_categories($post_id) {
 
 // User category filter function
 function bzrc_filter_categories_for_user($terms, $taxonomies, $args, $post_id) {
+    global $pagenow;
+    $is_edit_page = in_array($pagenow, ['post.php', 'post-new.php', 'edit.php']);
+
+    if (!$is_edit_page) {
+        return $terms; 
+    }
+
     $user_id = get_current_user_id();
     if (bzrc_is_user_restricted($user_id)) {
         $allowed_categories = bzrc_get_user_allowed_categories($user_id);
