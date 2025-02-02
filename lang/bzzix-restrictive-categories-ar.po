@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bzzix-restrictive-categories 1.0.4\n"
+"POT-Creation-Date: 2025-02-02 11:29+0200\n"
+"PO-Revision-Date: 2025-02-02 11:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: العربية\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__;esc_html_e;sprintf\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:131
+#: includes/class-bzzix-restrictive-categories-settings.php:132
+msgid "Restrictive categories"
+msgstr "تقييد النشر"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:180
+msgid "Settings"
+msgstr "إعدادات"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:193
+msgid "Access Restriction Settings"
+msgstr "إعدادات تقييد الوصول"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:194
+msgid ""
+"Configure how access to categories is restricted. You can choose to restrict "
+"access based on user roles or specific users."
+msgstr ""
+"تكوين النشر في التصنيفات. يمكنك اختيار تقييد الوصول بناءً على أدوار "
+"المستخدمين أو مستخدمين محددين."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:198
+msgid "Restriction Method"
+msgstr "طريقة التقييد"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:199
+msgid ""
+"Select whether you want to restrict access to categories by specific users "
+"or user roles."
+msgstr ""
+"حدد ما إذا كنت ترغب في تقييد النشر في التصنيفات من قبل مستخدمين محددين أو "
+"أدوار مستخدمين محددين."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:202
+msgid "Restrict by Specific Users"
+msgstr "التقييد باستخدام مستخدمين محددين"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:203
+msgid "Restrict by User Roles"
+msgstr "التقييد باستخدام الصلاحيات"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:215
+msgid "User-Based Restrictions"
+msgstr "تقيد المستخدمين"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:216
+msgid ""
+"Restrict access to specific users by entering their user IDs. Users listed "
+"here will be prevented from accessing the selected categories."
+msgstr ""
+"قم بتقييد الوصول لمستخدمين محددين عن طريق إدخال معرفات المستخدم الخاصة بهم. "
+"سيتم منع المستخدمين المدرجين هنا من الوصول إلى التصنيفات الغير محددة لهم."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:220
+msgid "Restricted User IDs"
+msgstr "معرفات المستخدم (IDS ) المقيدة"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:221
+msgid ""
+"Enter the user IDs (separated by commas) of the users who should be "
+"restricted. Example: 1,2,34."
+msgstr ""
+"أدخل معرفات المستخدم (مفصولة بفواصل) للمستخدمين الذين يجب تقييدهم. مثال: "
+"1،2،34."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:224
+msgid "1,2,34"
+msgstr ""
+
+#: includes/class-bzzix-restrictive-categories-settings.php:230
+msgid "Role-Based Restrictions"
+msgstr "تقييد الصلاحيات"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:231
+msgid ""
+"Restrict access to entire user roles. Users assigned to the selected roles "
+"will be denied access to the restricted categories."
+msgstr ""
+"تقييد الوصول إلى صلاحية  المستخدم بالكامل. سيتم رفض وصول المستخدمين المعينين "
+"للصلاحيات  المحددة إلى التصنيفات  المقيدة."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:235
+msgid "Restricted Roles"
+msgstr "الصلاحيات المقيدة"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:236
+msgid ""
+"Select the roles that should be restricted from accessing certain categories."
+msgstr "حدد الصلاحيات   التي يجب منعها من الوصول إلى تصنيفات معينة."
+
+#: includes/class-bzzix-restrictive-categories-settings.php:334
+msgid "Setting up publishing restrictions"
+msgstr "إعداد تقييدات النشر"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:388
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: includes/class-bzzix-restrictive-categories-settings.php:420
+msgid "Cloning of bzzix_restrictive_categories_API is forbidden."
+msgstr ""
+
+#: includes/class-bzzix-restrictive-categories-settings.php:429
+msgid ""
+"Unserializing instances of bzzix_restrictive_categories_API is forbidden."
+msgstr ""
+
+#: includes/class-bzzix-restrictive-categories.php:248
+msgid "Cloning of bzzix_restrictive_categories is forbidden"
+msgstr ""
+
+#: includes/class-bzzix-restrictive-categories.php:258
+msgid "Unserializing instances of bzzix_restrictive_categories is forbidden"
+msgstr ""
+
+#: includes/core/restrictive-categories-hooks.php:53
+msgid "Category Restrictions"
+msgstr "تقييد التصنيفات"
+
+#: includes/core/restrictive-categories-hooks.php:56
+msgid "Allowed Categories"
+msgstr "التصنيفات المسموح النشر بها"
+
+#: includes/core/restrictive-categories-hooks.php:65
+msgid "Select the categories this user is allowed to post in."
+msgstr "حدد الصلاحيات المسموح للمستخدم النشر فيها"
+
+#: includes/core/restrictive-categories-hooks.php:121
+msgid ""
+"You are not allowed to publish in these categories. Please choose only from "
+"the allowed categories."
+msgstr ""
+"غير مسموح لك النشر في هذه التصنيفات. يرجى الاختيار من التصنيفات  المسموح بها "
+"فقط."
+
+#: includes/lib/class-bzzix-restrictive-categories-admin-api.php:169
+msgid "Upload an image"
+msgstr ""
+
+#: includes/lib/class-bzzix-restrictive-categories-admin-api.php:169
+msgid "Use image"
+msgstr ""
+
+#: includes/lib/class-bzzix-restrictive-categories-admin-api.php:169
+msgid "Upload new image"
+msgstr ""
+
+#: includes/lib/class-bzzix-restrictive-categories-admin-api.php:170
+msgid "Remove image"
+msgstr ""
