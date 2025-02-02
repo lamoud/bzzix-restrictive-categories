@@ -1,6 +1,6 @@
 # Bzzix Restrictive Categories
 
-**Contributors:** bzzix  
+**Contributors:** Mahmoud Hassan  
 **Tags:** wordpress, plugin, categories, restrictions  
 **Requires at least:** 5.0  
 **Tested up to:** 6.3  
