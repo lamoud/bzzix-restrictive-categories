@@ -47,8 +47,8 @@ You can install the plugin by following these steps:
    ![User Profile Page](assets/screenshots/users_ids.png)
    ![User Profile Page](assets/screenshots/users_ids_set.png)
 
-3. **Post Editor:** Restricted users can only select allowed categories.
-   ![Post Editor](assets/screenshots/user_profile.png)
+3. **Profile Editor:** Restricted users can only select allowed categories.
+   ![Profile Editor](assets/screenshots/user_profile.png)
 
 ## Frequently Asked Questions
 
