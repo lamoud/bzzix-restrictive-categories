@@ -37,12 +37,18 @@ You can install the plugin by following these steps:
 5. Go to the profile edit page of restricted users and select the categories they are allowed to post in.  
 6. Restricted users will only be able to publish posts in their assigned categories.  
 
-
 ## Screenshots
 
 1. **Settings Page:** Configure category restrictions.
+   ![Settings Page](assets/category_selection_2.png)
+   ![Settings Page](assets/category_selection.png)
+
 2. **User Profile Page:** Set allowed categories per user.
+   ![User Profile Page](assets/users_ids.png)
+   ![User Profile Page](assets/users_ids_set.png)
+
 3. **Post Editor:** Restricted users can only select allowed categories.
+   ![Post Editor](assets/user_profile.png)
 
 ## Frequently Asked Questions
 

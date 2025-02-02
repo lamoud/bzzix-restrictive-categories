@@ -5,9 +5,10 @@
  * Plugin URI: http://bzzix.com/
  * Description: Control and restrict the categories that users can publish posts in. With bzzix_restrictive_categories, you can assign specific categories to user roles and make category selection mandatory before publishing. Perfect for multi-author websites that need precise content organization.
  * Author: Mahmoud Hassan
- * Author URI: Plugin URI: https://wa.me/00201062332549
+ * Author URI: https://wa.me/00201062332549
  * Requires at least: 4.0
  * Tested up to: 6.0
+ * Requires PHP: 8.0
  *
  * Text Domain: bzzix-restrictive-categories
  * Domain Path: /lang/
